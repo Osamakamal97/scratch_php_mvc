@@ -1,0 +1,15 @@
+{
+    "name": "osama/osama-mvc",
+    "authors": [
+        {
+            "name": "Osamakamal97",
+            "email": "osmaka1997@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
