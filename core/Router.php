@@ -46,8 +46,6 @@ class Router
         $layout_content = $this->layoutContent();
         $view_content = $this->renderOnlyView($view);
         return str_replace('{{content}}', $view_content, $layout_content);
-        include_once Application::$ROOT_DIR . "/views/$view.php";
-
     }
 
     protected function layoutContent()
